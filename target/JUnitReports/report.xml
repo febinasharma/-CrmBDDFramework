@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="27.492" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="FreeCRM Contacts page feature" name="FreeCRM login scenario - #1.1" time="14.115">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters groupautomation and Test@12345.............................passed
+And User clicks on login button.............................................passed
+Then User is navigated to Home page.........................................passed
+Then User clicks on New Contacts menu option under Contacts Menu............passed
+And User input new contacts details Veena and Verma and Sr.HR...............passed
+Then User saves new contact details.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FreeCRM Contacts page feature" name="FreeCRM login scenario - #1.2" time="13.219">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters groupautomation and Test@12345.............................passed
+And User clicks on login button.............................................passed
+Then User is navigated to Home page.........................................passed
+Then User clicks on New Contacts menu option under Contacts Menu............passed
+And User input new contacts details Bharath and Gopi and Lead Architect.....passed
+Then User saves new contact details.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
